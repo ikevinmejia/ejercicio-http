@@ -1,0 +1,37 @@
+{
+    "cars": [
+        {
+          "nombre": "Lamborghini Urus",
+          "precio": 286007.08,
+          "descripcion": "Impulsado por un motor V8 biturbo de 4,0 litros que genera 650 CV de potencia y un par de 850 Nm, el Urus acelera de 0 a 100 km/h en 3,6 segundos y alcanza una velocidad máxima de 305 km/h.",
+          "marca": "Lamborghini",
+          "categoria": "cars",
+          "imagen": "https://www.diariomotor.com/imagenes/2017/12/lamborghini-urus-01.jpg"
+        },
+        {
+          "nombre": "Genesis G90",
+          "precio": 72200,
+          "descripcion": "Impulsado por un motor V8 biturbo de 4,0 litros que genera 650 CV de potencia y un par de 850 Nm, el Urus acelera de 0 a 100 km/h en 3,6 segundos y alcanza una velocidad máxima de 305 km/h.",
+          "marca": "Genesis",
+          "categoria": "cars",
+          "imagen": "https://www.elcarrocolombiano.com/wp-content/uploads/2021/12/20211412-PORTADA-Genesis-G90-2022.jpg"
+        },
+        {
+          "nombre": "Rolls Royce Phantom",
+          "precio": 499349.09,
+          "descripcion": "Es uno de los coches más lujosos del mundo, quizás el que más. Es una gran berlina que supera con creces los 5 metros de longitud, y se acerca a los 6 metros según la versión. Un vehículo con un precio que, con algunos extras, se sitúa bien por encima de los 520.000 dólares.",
+          "marca": "Roll Royce",
+          "categoria": "cars",
+          "imagen": "https://img.remediosdigitales.com/71282e/p90462867_highres_rolls-royce-phantom-/1366_2000.jpeg"
+        },
+        {
+          "nombre": "Tesla Model X",
+          "precio": 120781.02,
+          "descripcion": "Es un SUV eléctrico a batería con capacidad para cinco, seis o siete personas. Hay dos niveles de equipamiento disponibles, Model X y Model X Plaid, y cada Model X tiene tracción total. El alcance estimado es de 348 millas para el Long Range y de 311 a 333 millas para el Plaid, según el tamaño de la rueda.",
+          "marca": "Tesla",
+          "categoria": "cars",
+          "imagen": "https://www.diariomotor.com/imagenes/2015/03/tesla-model-x-9.jpg"
+        }
+      ],
+      "carrito": []
+}
