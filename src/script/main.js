@@ -6,7 +6,6 @@ import { getUrl } from "./url.js";
 
 const root = document.querySelector('.root');
 
-
 // const objeto = {
 //     nombre : "Pikachu",
 //     pokedex : 25
