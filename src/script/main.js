@@ -1,7 +1,6 @@
 // El nombre de las funciones hacen referencia a lo que se ejecuta
-
-import createContent from "./helpers/create-content.js";
 import getData from "./helpers/getData.js";
+import showContent from "./helpers/show-content.js";
 import { getUrl } from "./url.js";
 
 const root = document.querySelector('.root');
@@ -28,13 +27,13 @@ const data =  await getData(getUrl);
 console.log(data);
 /*  Desestructuración */
 
-const {nombre, imagen} = data[3];
+// const {nombre, imagen} = data[3];
 
-console.warn(nombre, imagen);
+// console.warn(nombre, imagen);
 
 // 1. contenedor
 // 2. imagen
 // 3. texto
 
-createContent(root, imagen, nombre);
+showContent(root, data);
 
