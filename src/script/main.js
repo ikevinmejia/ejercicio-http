@@ -36,4 +36,3 @@ console.log(data);
 // 3. texto
 
 showContent(root, data);
-

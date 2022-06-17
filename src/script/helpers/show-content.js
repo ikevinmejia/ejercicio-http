@@ -11,4 +11,10 @@ const showContent = (contenedor, data) => {
 
 }
 
+/* let arreglo = ['Caitlyn', 'Jinx', 'Soraka', 'Lux' ]
+
+'Génesis'.forEach(element => {
+    console.log(element);
+}) */
+
 export default showContent;
