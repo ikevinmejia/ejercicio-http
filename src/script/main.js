@@ -1,22 +1,41 @@
-// 1. Seleccionar template y root
+// El nombre de las funciones hacen referencia a lo que se ejecuta
+
+import createContent from "./helpers/create-content.js";
+import getData from "./helpers/getData.js";
+import { getUrl } from "./url.js";
 
 const root = document.querySelector('.root');
-const template = document.querySelector('#template').content;
 
-const fragment = document.createDocumentFragment();
 
-// 2. Manipular el contenido.
+// const objeto = {
+//     nombre : "Pikachu",
+//     pokedex : 25
+// }
 
-template.querySelector('.card-img').setAttribute('src', '');
-template.querySelector('.card-text').textContent = 'Que pros';
+// const numero = 40;
 
-// 3. Clonar el template
+// localStorage.setItem('EjemploValor', numero);
 
-const cloneTemplete = document.importNode(template, true);
+// localStorage.setItem('EjemploObjeto', objeto)
 
-// 4. Incertar en el DOM
-// 4.1 clone > fragment > root
+// localStorage.setItem('JsonStringify', JSON.stringify(objeto));
 
-fragment.append(cloneTemplete);
-root.append(fragment);
+// const ejemplo = JSON.parse(localStorage.getItem('JsonStringify')) ;
+
+// console.warn(ejemplo);
+
+const data =  await getData(getUrl);
+
+console.log(data);
+/*  Desestructuración */
+
+const {nombre, imagen} = data[3];
+
+console.warn(nombre, imagen);
+
+// 1. contenedor
+// 2. imagen
+// 3. texto
+
+createContent(root, imagen, nombre);
 
